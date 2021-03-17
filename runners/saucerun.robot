@@ -4,8 +4,10 @@ Resource   ../switchcases/loginsl.robot
 Library  DataDriver  ../data/saucedemo.xlsx
 
 Test Template  Test
+
 *** Test Cases ***
 SauceDemo
+
 
 *** Keywords ***
 Test
