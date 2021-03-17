@@ -27,7 +27,7 @@ Logout
     click element  id:react-burger-menu-btn
     sleep  2s
     click element  id:logout_sidebar_link
-    sleep  2s
+
     capture page screenshot
 end
     close browser
