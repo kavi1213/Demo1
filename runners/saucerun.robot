@@ -11,8 +11,8 @@ SauceDemo
 
 *** Keywords ***
 Test
-        LaunchBrowser
-        [Arguments]  ${username}    ${password}
+        [Arguments]  ${link}    ${browser}  ${username}    ${password}
+        LaunchBrowser   ${link}  ${browser}
         username    ${username}
         password    ${password}
         Login button

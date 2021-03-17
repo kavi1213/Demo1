@@ -14,9 +14,9 @@ WithDataDriven1
 
 *** Keywords ***
 login
-    Browser operation
+    [Arguments]  ${link}    ${browser}  ${username}    ${password}
+    Browser operation   ${link}  ${browser}
     select Option
-    [Arguments]  ${username}  ${password}
     Input Uname  ${username}
     Input Pword  ${password}
     Click log In btn

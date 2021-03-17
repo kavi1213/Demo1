@@ -2,12 +2,13 @@
 Library  SeleniumLibrary
 
 *** Variables ***
-${browser}  chrome
-${url}  https://www.amazon.in/
+${browser}
+${url}
 
 *** Keywords ***
 Browser operation
-    open browser    ${url}   ${browser}
+   [Arguments]  ${link}     ${browser}
+   open browser  ${link}    ${browser}
     maximize browser window
 
 select Option

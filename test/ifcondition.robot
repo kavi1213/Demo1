@@ -3,7 +3,7 @@ Library  SeleniumLibrary
 
 *** Variables ***
 ${url}  https://demo.opencart.com/
-${browser}  chrome
+${browser}  ff
 
 *** Keywords ***
 Browser

@@ -1,10 +1,12 @@
 *** Settings ***
 Library  SeleniumLibrary
-
-
+*** Variables ***
+${link}
+${browser}
 *** Keywords ***
 LaunchBrowser
-    open browser  https://www.saucedemo.com/    chrome
+   [Arguments]  ${link}     ${browser}
+   open browser  ${link}    ${browser}
     maximize browser window
 username
     [Arguments]  ${Username}
