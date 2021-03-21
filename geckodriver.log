@@ -41,3 +41,9 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 [Parent 1704, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
+1616315139334	geckodriver	INFO	Listening on 127.0.0.1:53732
+1616315142410	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kavib\\AppData\\Local\\Temp\\rust_mozprofilee85KAw"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616315146571	Marionette	INFO	Listening on port 53740
+1616315146686	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616315154275	Marionette	INFO	Stopped listening on port 53740

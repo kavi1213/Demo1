@@ -7,7 +7,7 @@ ${browser}
 LaunchBrowser
    [Arguments]  ${link}     ${browser}
    open browser  ${link}    ${browser}
-    maximize browser window
+   # maximize browser window
 username
     [Arguments]  ${Username}
     input text  id:user-name        ${username}
