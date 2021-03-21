@@ -1,130 +1,43 @@
-1616012715677	geckodriver	INFO	Listening on 127.0.0.1:64772
-1616012718795	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kavib\\AppData\\Local\\Temp\\rust_mozprofileaR5u79"
+1616039682939	geckodriver	INFO	Listening on 127.0.0.1:55846
+1616039686056	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kavib\\AppData\\Local\\Temp\\rust_mozprofileoP8g9i"
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1616012724400	Marionette	INFO	Listening on port 64782
-1616012724720	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616039691506	Marionette	INFO	Listening on port 55854
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 988: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
 console.error: services.settings: 
-  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1616039692482	Marionette	INFO	Stopped listening on port 55854
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1616012727077	Marionette	INFO	Stopped listening on port 64782
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1616012778905	geckodriver	INFO	Listening on 127.0.0.1:64887
-1616012781965	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kavib\\AppData\\Local\\Temp\\rust_mozprofileatkJr7"
+[Parent 1540, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
+1616039723074	geckodriver	INFO	Listening on 127.0.0.1:55921
+1616039726187	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kavib\\AppData\\Local\\Temp\\rust_mozprofilepuillr"
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1616012786797	Marionette	INFO	Listening on port 64896
-1616012787248	Marionette	WARN	TLS certificate errors will be ignored for this session
-1616012794101	Marionette	INFO	Stopped listening on port 64896
+1616039730994	Marionette	INFO	Listening on port 55929
+1616039731471	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616039738194	Marionette	INFO	Stopped listening on port 55929
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-1616013326556	geckodriver	INFO	Listening on 127.0.0.1:65290
-1616013329658	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kavib\\AppData\\Local\\Temp\\rust_mozprofileq98IHr"
+1616052830148	geckodriver	INFO	Listening on 127.0.0.1:50207
+1616052833319	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kavib\\AppData\\Local\\Temp\\rust_mozprofileVWMPOe"
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1616013334383	Marionette	INFO	Listening on port 65299
-1616013334919	Marionette	WARN	TLS certificate errors will be ignored for this session
-1616013340277	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:231:19
-TimedPromise@chrome://marionette/content/sync.js:216:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
-webdriverClickElement@chrome://marionette/content/interaction.js:179:31
-JavaScript error: https://images-eu.ssl-images-amazon.com/images/I/11Y+5x+kkTL._RC|51IWYO5M+zL.js,112nmCqUymL.js,11giXtZCwVL.js,01+z+uIeJ-L.js,014NohEdE7L.js,21NNXfMitSL.js,11GXfd3+z+L.js,11AHlQhPRjL.js,11UNQpqeowL.js,11OREnu1epL.js,11KbZymw5ZL.js,21r53SJg7LL.js,0190vxtlzcL.js,01ezj5Rkz1L.js,11VS-C+YWGL.js,31pOTH2ZMRL.js,01rpauTep4L.js,01zbcJxtbAL.js_.js?AUIClients/AmazonUI&Dj66etiu#page_type-Gateway.319488-T1.309035-T1, line 150: SyntaxError: FontFaceSet.load: Invalid font shorthand
-JavaScript error: https://images-eu.ssl-images-amazon.com/images/I/11Y+5x+kkTL._RC|51IWYO5M+zL.js,112nmCqUymL.js,11giXtZCwVL.js,01+z+uIeJ-L.js,014NohEdE7L.js,21NNXfMitSL.js,11GXfd3+z+L.js,11AHlQhPRjL.js,11UNQpqeowL.js,11OREnu1epL.js,11KbZymw5ZL.js,21r53SJg7LL.js,0190vxtlzcL.js,01ezj5Rkz1L.js,11VS-C+YWGL.js,31pOTH2ZMRL.js,01rpauTep4L.js,01zbcJxtbAL.js_.js?AUIClients/AmazonUI&Dj66etiu#page_type-Gateway.319488-T1.309035-T1, line 150: SyntaxError: FontFaceSet.load: Invalid font shorthand
-JavaScript error: https://images-eu.ssl-images-amazon.com/images/I/11Y+5x+kkTL._RC|51IWYO5M+zL.js,112nmCqUymL.js,11giXtZCwVL.js,01+z+uIeJ-L.js,014NohEdE7L.js,21NNXfMitSL.js,11GXfd3+z+L.js,11AHlQhPRjL.js,11UNQpqeowL.js,11OREnu1epL.js,11KbZymw5ZL.js,21r53SJg7LL.js,0190vxtlzcL.js,01ezj5Rkz1L.js,11VS-C+YWGL.js,31pOTH2ZMRL.js,01rpauTep4L.js,01zbcJxtbAL.js_.js?AUIClients/AmazonUI&Dj66etiu#page_type-Gateway.319488-T1.309035-T1, line 150: SyntaxError: FontFaceSet.load: Invalid font shorthand
-JavaScript error: https://images-eu.ssl-images-amazon.com/images/I/11Y+5x+kkTL._RC|51IWYO5M+zL.js,112nmCqUymL.js,11giXtZCwVL.js,01+z+uIeJ-L.js,014NohEdE7L.js,21NNXfMitSL.js,11GXfd3+z+L.js,11AHlQhPRjL.js,11UNQpqeowL.js,11OREnu1epL.js,11KbZymw5ZL.js,21r53SJg7LL.js,0190vxtlzcL.js,01ezj5Rkz1L.js,11VS-C+YWGL.js,31pOTH2ZMRL.js,01rpauTep4L.js,01zbcJxtbAL.js_.js?AUIClients/AmazonUI&Dj66etiu#page_type-Gateway.319488-T1.309035-T1, line 150: SyntaxError: FontFaceSet.load: Invalid font shorthand
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-1616013428066	Marionette	INFO	Stopped listening on port 65299
+1616052838334	Marionette	INFO	Listening on port 50215
+1616052838714	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616052845182	Marionette	INFO	Stopped listening on port 50215
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-1616013453944	geckodriver	INFO	Listening on 127.0.0.1:49200
-1616013456989	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kavib\\AppData\\Local\\Temp\\rust_mozprofileBQtqrB"
+1616309756814	geckodriver	INFO	Listening on 127.0.0.1:52267
+1616309759905	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kavib\\AppData\\Local\\Temp\\rust_mozprofileTGl1Lw"
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1616013462595	Marionette	INFO	Listening on port 49209
-1616013462766	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: https://images-eu.ssl-images-amazon.com/images/I/11Y+5x+kkTL._RC|51IWYO5M+zL.js,112nmCqUymL.js,11giXtZCwVL.js,01+z+uIeJ-L.js,014NohEdE7L.js,21NNXfMitSL.js,11GXfd3+z+L.js,11AHlQhPRjL.js,11UNQpqeowL.js,11OREnu1epL.js,11KbZymw5ZL.js,21r53SJg7LL.js,0190vxtlzcL.js,01ezj5Rkz1L.js,11VS-C+YWGL.js,31pOTH2ZMRL.js,01rpauTep4L.js,01zbcJxtbAL.js_.js?AUIClients/AmazonUI&Dj66etiu#page_type-Gateway.319488-T1.309035-T1, line 150: SyntaxError: FontFaceSet.load: Invalid font shorthand
-JavaScript error: https://images-eu.ssl-images-amazon.com/images/I/11Y+5x+kkTL._RC|51IWYO5M+zL.js,112nmCqUymL.js,11giXtZCwVL.js,01+z+uIeJ-L.js,014NohEdE7L.js,21NNXfMitSL.js,11GXfd3+z+L.js,11AHlQhPRjL.js,11UNQpqeowL.js,11OREnu1epL.js,11KbZymw5ZL.js,21r53SJg7LL.js,0190vxtlzcL.js,01ezj5Rkz1L.js,11VS-C+YWGL.js,31pOTH2ZMRL.js,01rpauTep4L.js,01zbcJxtbAL.js_.js?AUIClients/AmazonUI&Dj66etiu#page_type-Gateway.319488-T1.309035-T1, line 150: SyntaxError: FontFaceSet.load: Invalid font shorthand
-JavaScript error: https://images-eu.ssl-images-amazon.com/images/I/11Y+5x+kkTL._RC|51IWYO5M+zL.js,112nmCqUymL.js,11giXtZCwVL.js,01+z+uIeJ-L.js,014NohEdE7L.js,21NNXfMitSL.js,11GXfd3+z+L.js,11AHlQhPRjL.js,11UNQpqeowL.js,11OREnu1epL.js,11KbZymw5ZL.js,21r53SJg7LL.js,0190vxtlzcL.js,01ezj5Rkz1L.js,11VS-C+YWGL.js,31pOTH2ZMRL.js,01rpauTep4L.js,01zbcJxtbAL.js_.js?AUIClients/AmazonUI&Dj66etiu#page_type-Gateway.319488-T1.309035-T1, line 150: SyntaxError: FontFaceSet.load: Invalid font shorthand
-JavaScript error: https://images-eu.ssl-images-amazon.com/images/I/11Y+5x+kkTL._RC|51IWYO5M+zL.js,112nmCqUymL.js,11giXtZCwVL.js,01+z+uIeJ-L.js,014NohEdE7L.js,21NNXfMitSL.js,11GXfd3+z+L.js,11AHlQhPRjL.js,11UNQpqeowL.js,11OREnu1epL.js,11KbZymw5ZL.js,21r53SJg7LL.js,0190vxtlzcL.js,01ezj5Rkz1L.js,11VS-C+YWGL.js,31pOTH2ZMRL.js,01rpauTep4L.js,01zbcJxtbAL.js_.js?AUIClients/AmazonUI&Dj66etiu#page_type-Gateway.319488-T1.309035-T1, line 150: SyntaxError: FontFaceSet.load: Invalid font shorthand
-1616013867889	Marionette	INFO	Stopped listening on port 49209
-6013581712	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kavib\\AppData\\Local\\Temp\\rust_mozprofile4hqOsD"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1616013587525	Marionette	INFO	Listening on port 49557
-1616013588006	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: https://images-eu.ssl-images-amazon.com/images/I/11Y+5x+kkTL._RC|51IWYO5M+zL.js,112nmCqUymL.js,11giXtZCwVL.js,01+z+uIeJ-L.js,014NohEdE7L.js,21NNXfMitSL.js,11GXfd3+z+L.js,11AHlQhPRjL.js,11UNQpqeowL.js,11OREnu1epL.js,11KbZymw5ZL.js,21r53SJg7LL.js,0190vxtlzcL.js,01ezj5Rkz1L.js,11VS-C+YWGL.js,31pOTH2ZMRL.js,01rpauTep4L.js,01zbcJxtbAL.js_.js?AUIClients/AmazonUI&Dj66etiu#page_type-Gateway.319488-T1.309035-T1, line 150: SyntaxError: FontFaceSet.load: Invalid font shorthand
-JavaScript error: https://images-eu.ssl-images-amazon.com/images/I/11Y+5x+kkTL._RC|51IWYO5M+zL.js,112nmCqUymL.js,11giXtZCwVL.js,01+z+uIeJ-L.js,014NohEdE7L.js,21NNXfMitSL.js,11GXfd3+z+L.js,11AHlQhPRjL.js,11UNQpqeowL.js,11OREnu1epL.js,11KbZymw5ZL.js,21r53SJg7LL.js,0190vxtlzcL.js,01ezj5Rkz1L.js,11VS-C+YWGL.js,31pOTH2ZMRL.js,01rpauTep4L.js,01zbcJxtbAL.js_.js?AUIClients/AmazonUI&Dj66etiu#page_type-Gateway.319488-T1.309035-T1, line 150: SyntaxError: FontFaceSet.load: Invalid font shorthand
-JavaScript error: https://images-eu.ssl-images-amazon.com/images/I/11Y+5x+kkTL._RC|51IWYO5M+zL.js,112nmCqUymL.js,11giXtZCwVL.js,01+z+uIeJ-L.js,014NohEdE7L.js,21NNXfMitSL.js,11GXfd3+z+L.js,11AHlQhPRjL.js,11UNQpqeowL.js,11OREnu1epL.js,11KbZymw5ZL.js,21r53SJg7LL.js,0190vxtlzcL.js,01ezj5Rkz1L.js,11VS-C+YWGL.js,31pOTH2ZMRL.js,01rpauTep4L.js,01zbcJxtbAL.js_.js?AUIClients/AmazonUI&Dj66etiu#page_type-Gateway.319488-T1.309035-T1, line 150: SyntaxError: FontFaceSet.load: Invalid font shorthand
-JavaScript error: https://images-eu.ssl-images-amazon.com/images/I/11Y+5x+kkTL._RC|51IWYO5M+zL.js,112nmCqUymL.js,11giXtZCwVL.js,01+z+uIeJ-L.js,014NohEdE7L.js,21NNXfMitSL.js,11GXfd3+z+L.js,11AHlQhPRjL.js,11UNQpqeowL.js,11OREnu1epL.js,11KbZymw5ZL.js,21r53SJg7LL.js,0190vxtlzcL.js,01ezj5Rkz1L.js,11VS-C+YWGL.js,31pOTH2ZMRL.js,01rpauTep4L.js,01zbcJxtbAL.js_.js?AUIClients/AmazonUI&Dj66etiu#page_type-Gateway.319488-T1.309035-T1, line 150: SyntaxError: FontFaceSet.load: Invalid font shorthand
-1616013603199	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:231:19
-TimedPromise@chrome://marionette/content/sync.js:216:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
-webdriverClickElement@chrome://marionette/content/interaction.js:179:31
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-1616013606210	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://marionette/content/sync.js:231:19
-TimedPromise@chrome://marionette/content/sync.js:216:10
-interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
-webdriverClickElement@chrome://marionette/content/interaction.js:179:31
-IPDL protocol error: Handler returned error code!
-
-###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
-
-1616013849273	Marionette	INFO	Stopped listening on port 49557
+1616309765018	Marionette	INFO	Listening on port 52275
+1616309765201	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616309771668	Marionette	INFO	Stopped listening on port 52275
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-013688788	Marionette	INFO	Listening on port 49823
-1616013689255	Marionette	WARN	TLS certificate errors will be ignored for this session
-1616013703119	Marionette	INFO	Stopped listening on port 49823
-[Child 13136, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
-[Child 13136, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1616016832033	geckodriver	INFO	Listening on 127.0.0.1:51873
-1616016835135	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kavib\\AppData\\Local\\Temp\\rust_mozprofile9W5Rb7"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1616016840042	Marionette	INFO	Listening on port 51882
-1616016840415	Marionette	WARN	TLS certificate errors will be ignored for this session
-1616016851623	Marionette	INFO	Stopped listening on port 51882
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1616016913655	geckodriver	INFO	Listening on 127.0.0.1:52157
-1616016916754	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kavib\\AppData\\Local\\Temp\\rust_mozprofileyJSIf4"
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1616016921988	Marionette	INFO	Listening on port 52166
-1616016922515	Marionette	WARN	TLS certificate errors will be ignored for this session
-1616016929907	Marionette	INFO	Stopped listening on port 52166
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
+[Parent 1704, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545

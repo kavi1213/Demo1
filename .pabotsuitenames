@@ -1,0 +1,6 @@
+datasources:7f0992f1d1318912e25020f87d596cfa030a32a4
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:fa31351c97bce95816af96f5bdfd531678580ba1
+--suite Suites.Amrun
+--suite Suites.Saucerun
