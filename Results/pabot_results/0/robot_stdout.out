@@ -7,15 +7,14 @@ WithDataDriven1                                                       Invald Cre
 | PASS |
 ------------------------------------------------------------------------------
 WithDataDriven1                                                       Valid Credentials
-| FAIL |
-Unable to locate window with title 'Samsung Galaxy A51 (Blue, 8GB RAM, 128GB Storage) Without Offer: Amazon.in: Electronics'.
+| PASS |
 ------------------------------------------------------------------------------
-Suites.Amrun                                                          | FAIL |
-2 critical tests, 1 passed, 1 failed
-2 tests total, 1 passed, 1 failed
+Suites.Amrun                                                          | PASS |
+2 critical tests, 2 passed, 0 failed
+2 tests total, 2 passed, 0 failed
 ==============================================================================
-Suites                                                                | FAIL |
-2 critical tests, 1 passed, 1 failed
-2 tests total, 1 passed, 1 failed
+Suites                                                                | PASS |
+2 critical tests, 2 passed, 0 failed
+2 tests total, 2 passed, 0 failed
 ==============================================================================
 Output:  C:\Users\kavib\Pythonpro\Demo\Results\pabot_results\0\output.xml

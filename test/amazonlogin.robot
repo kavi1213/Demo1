@@ -9,7 +9,7 @@ ${url}
 Browser operation
    [Arguments]  ${link}     ${browser}
    open browser  ${link}    ${browser}
-    maximize browser window
+   # maximize browser window
 
 select Option
     click link  xpath://*[@id="nav-link-accountList"]

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Rebot 3.2.2 (Python 3.9.2 on win32)" generated="20210321 13:59:21.909" rpa="false">
+<robot generator="Rebot 3.2.2 (Python 3.9.2 on win32)" generated="20210321 16:56:57.878" rpa="false">
 <suite id="s1" name="Suites">
 <suite id="s1-s1" name="Amrun" source="C:\Users\kavib\Pythonpro\Demo\runners\amrun.robot">
 <test id="s1-s1-t1" name="WithDataDriven1">
@@ -21,14 +21,10 @@
 <arg>${link}</arg>
 <arg>${browser}</arg>
 </arguments>
-<msg timestamp="20210321 13:57:53.833" level="INFO">Opening browser 'ff' to base url 'https://www.amazon.in/'.</msg>
-<status status="PASS" starttime="20210321 13:57:53.833" endtime="20210321 13:58:06.379"></status>
+<msg timestamp="20210321 16:54:17.899" level="INFO">Opening browser 'ff' to base url 'https://www.amazon.in/'.</msg>
+<status status="PASS" starttime="20210321 16:54:17.897" endtime="20210321 16:54:42.328"></status>
 </kw>
-<kw name="Maximize Browser Window" library="SeleniumLibrary">
-<doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20210321 13:58:06.380" endtime="20210321 13:58:06.425"></status>
-</kw>
-<status status="PASS" starttime="20210321 13:57:53.832" endtime="20210321 13:58:06.426"></status>
+<status status="PASS" starttime="20210321 16:54:17.893" endtime="20210321 16:54:42.329"></status>
 </kw>
 <kw name="select Option" library="amazonlogin">
 <kw name="Click Link" library="SeleniumLibrary">
@@ -36,10 +32,10 @@
 <arguments>
 <arg>xpath://*[@id="nav-link-accountList"]</arg>
 </arguments>
-<msg timestamp="20210321 13:58:06.433" level="INFO">Clicking link 'xpath://*[@id="nav-link-accountList"]'.</msg>
-<status status="PASS" starttime="20210321 13:58:06.431" endtime="20210321 13:58:09.122"></status>
+<msg timestamp="20210321 16:54:42.334" level="INFO">Clicking link 'xpath://*[@id="nav-link-accountList"]'.</msg>
+<status status="PASS" starttime="20210321 16:54:42.333" endtime="20210321 16:54:48.272"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:06.428" endtime="20210321 13:58:09.122"></status>
+<status status="PASS" starttime="20210321 16:54:42.330" endtime="20210321 16:54:48.273"></status>
 </kw>
 <kw name="Input Uname" library="amazonlogin">
 <arguments>
@@ -51,18 +47,18 @@
 <arg>id:ap_email</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20210321 13:58:09.125" level="INFO">Typing text 'kavibharathi637@gmail.com' into text field 'id:ap_email'.</msg>
-<status status="PASS" starttime="20210321 13:58:09.124" endtime="20210321 13:58:09.739"></status>
+<msg timestamp="20210321 16:54:48.278" level="INFO">Typing text 'kavibharathi637@gmail.com' into text field 'id:ap_email'.</msg>
+<status status="PASS" starttime="20210321 16:54:48.276" endtime="20210321 16:54:49.262"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>id:continue</arg>
 </arguments>
-<msg timestamp="20210321 13:58:09.740" level="INFO">Clicking element 'id:continue'.</msg>
-<status status="PASS" starttime="20210321 13:58:09.739" endtime="20210321 13:58:11.292"></status>
+<msg timestamp="20210321 16:54:49.264" level="INFO">Clicking element 'id:continue'.</msg>
+<status status="PASS" starttime="20210321 16:54:49.263" endtime="20210321 16:54:51.656"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:09.123" endtime="20210321 13:58:11.293"></status>
+<status status="PASS" starttime="20210321 16:54:48.274" endtime="20210321 16:54:51.658"></status>
 </kw>
 <kw name="Input Pword" library="amazonlogin">
 <arguments>
@@ -74,10 +70,10 @@
 <arg>id:ap_password</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20210321 13:58:11.298" level="INFO">Typing password into text field 'id:ap_password'.</msg>
-<status status="PASS" starttime="20210321 13:58:11.296" endtime="20210321 13:58:11.904"></status>
+<msg timestamp="20210321 16:54:51.663" level="INFO">Typing password into text field 'id:ap_password'.</msg>
+<status status="PASS" starttime="20210321 16:54:51.662" endtime="20210321 16:54:52.265"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:11.294" endtime="20210321 13:58:11.905"></status>
+<status status="PASS" starttime="20210321 16:54:51.658" endtime="20210321 16:54:52.266"></status>
 </kw>
 <kw name="Click log In btn" library="amazonlogin">
 <kw name="Select Checkbox" library="SeleniumLibrary">
@@ -85,26 +81,26 @@
 <arguments>
 <arg>rememberMe</arg>
 </arguments>
-<msg timestamp="20210321 13:58:11.909" level="INFO">Selecting checkbox 'rememberMe'.</msg>
-<status status="PASS" starttime="20210321 13:58:11.908" endtime="20210321 13:58:12.520"></status>
+<msg timestamp="20210321 16:54:52.269" level="INFO">Selecting checkbox 'rememberMe'.</msg>
+<status status="PASS" starttime="20210321 16:54:52.268" endtime="20210321 16:54:53.001"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>id:signInSubmit</arg>
 </arguments>
-<msg timestamp="20210321 13:58:12.522" level="INFO">Clicking element 'id:signInSubmit'.</msg>
-<status status="PASS" starttime="20210321 13:58:12.521" endtime="20210321 13:58:14.989"></status>
+<msg timestamp="20210321 16:54:53.003" level="INFO">Clicking element 'id:signInSubmit'.</msg>
+<status status="PASS" starttime="20210321 16:54:53.002" endtime="20210321 16:54:55.898"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3s</arg>
 </arguments>
-<msg timestamp="20210321 13:58:17.992" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20210321 13:58:14.990" endtime="20210321 13:58:17.992"></status>
+<msg timestamp="20210321 16:54:58.902" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210321 16:54:55.899" endtime="20210321 16:54:58.903"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:11.905" endtime="20210321 13:58:17.993"></status>
+<status status="PASS" starttime="20210321 16:54:52.267" endtime="20210321 16:54:58.904"></status>
 </kw>
 <kw name="Get Element Count" library="SeleniumLibrary">
 <doc>Returns number of elements matching ``locator``.</doc>
@@ -114,8 +110,8 @@
 <assign>
 <var>${name_in_page}</var>
 </assign>
-<msg timestamp="20210321 13:58:18.007" level="INFO">${name_in_page} = 0</msg>
-<status status="PASS" starttime="20210321 13:58:17.993" endtime="20210321 13:58:18.008"></status>
+<msg timestamp="20210321 16:54:58.920" level="INFO">${name_in_page} = 0</msg>
+<status status="PASS" starttime="20210321 16:54:58.904" endtime="20210321 16:54:58.921"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -131,19 +127,19 @@
 <arguments>
 <arg>Invald Credentials</arg>
 </arguments>
-<status status="PASS" starttime="20210321 13:58:18.011" endtime="20210321 13:58:18.012"></status>
+<status status="PASS" starttime="20210321 16:54:58.927" endtime="20210321 16:54:58.928"></status>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20210321 13:58:18.012" endtime="20210321 13:58:19.891"></status>
+<status status="PASS" starttime="20210321 16:54:58.929" endtime="20210321 16:55:14.708"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:18.010" endtime="20210321 13:58:19.891"></status>
+<status status="PASS" starttime="20210321 16:54:58.924" endtime="20210321 16:55:14.709"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:18.008" endtime="20210321 13:58:19.892"></status>
+<status status="PASS" starttime="20210321 16:54:58.922" endtime="20210321 16:55:14.710"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:57:53.831" endtime="20210321 13:58:19.892"></status>
+<status status="PASS" starttime="20210321 16:54:17.890" endtime="20210321 16:55:14.711"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:57:53.829" endtime="20210321 13:58:19.892" critical="yes"></status>
+<status status="PASS" starttime="20210321 16:54:17.887" endtime="20210321 16:55:14.712" critical="yes"></status>
 </test>
 <test id="s1-s1-t2" name="WithDataDriven1">
 <kw name="login">
@@ -164,14 +160,10 @@
 <arg>${link}</arg>
 <arg>${browser}</arg>
 </arguments>
-<msg timestamp="20210321 13:58:19.911" level="INFO">Opening browser 'chrome' to base url 'https://www.amazon.in/'.</msg>
-<status status="PASS" starttime="20210321 13:58:19.909" endtime="20210321 13:58:32.689"></status>
+<msg timestamp="20210321 16:55:14.727" level="INFO">Opening browser 'chrome' to base url 'https://www.amazon.in/'.</msg>
+<status status="PASS" starttime="20210321 16:55:14.726" endtime="20210321 16:55:27.303"></status>
 </kw>
-<kw name="Maximize Browser Window" library="SeleniumLibrary">
-<doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20210321 13:58:32.690" endtime="20210321 13:58:33.835"></status>
-</kw>
-<status status="PASS" starttime="20210321 13:58:19.908" endtime="20210321 13:58:33.836"></status>
+<status status="PASS" starttime="20210321 16:55:14.723" endtime="20210321 16:55:27.304"></status>
 </kw>
 <kw name="select Option" library="amazonlogin">
 <kw name="Click Link" library="SeleniumLibrary">
@@ -179,10 +171,10 @@
 <arguments>
 <arg>xpath://*[@id="nav-link-accountList"]</arg>
 </arguments>
-<msg timestamp="20210321 13:58:33.840" level="INFO">Clicking link 'xpath://*[@id="nav-link-accountList"]'.</msg>
-<status status="PASS" starttime="20210321 13:58:33.839" endtime="20210321 13:58:37.692"></status>
+<msg timestamp="20210321 16:55:27.308" level="INFO">Clicking link 'xpath://*[@id="nav-link-accountList"]'.</msg>
+<status status="PASS" starttime="20210321 16:55:27.307" endtime="20210321 16:55:38.851"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:33.837" endtime="20210321 13:58:37.693"></status>
+<status status="PASS" starttime="20210321 16:55:27.305" endtime="20210321 16:55:38.852"></status>
 </kw>
 <kw name="Input Uname" library="amazonlogin">
 <arguments>
@@ -194,18 +186,18 @@
 <arg>id:ap_email</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20210321 13:58:37.695" level="INFO">Typing text 'kavibharathi616@gmail.com' into text field 'id:ap_email'.</msg>
-<status status="PASS" starttime="20210321 13:58:37.694" endtime="20210321 13:58:38.954"></status>
+<msg timestamp="20210321 16:55:38.857" level="INFO">Typing text 'kavibharathi616@gmail.com' into text field 'id:ap_email'.</msg>
+<status status="PASS" starttime="20210321 16:55:38.856" endtime="20210321 16:55:41.173"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>id:continue</arg>
 </arguments>
-<msg timestamp="20210321 13:58:38.955" level="INFO">Clicking element 'id:continue'.</msg>
-<status status="PASS" starttime="20210321 13:58:38.954" endtime="20210321 13:58:40.989"></status>
+<msg timestamp="20210321 16:55:41.176" level="INFO">Clicking element 'id:continue'.</msg>
+<status status="PASS" starttime="20210321 16:55:41.175" endtime="20210321 16:55:44.289"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:37.693" endtime="20210321 13:58:40.990"></status>
+<status status="PASS" starttime="20210321 16:55:38.853" endtime="20210321 16:55:44.290"></status>
 </kw>
 <kw name="Input Pword" library="amazonlogin">
 <arguments>
@@ -217,10 +209,10 @@
 <arg>id:ap_password</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20210321 13:58:40.993" level="INFO">Typing password into text field 'id:ap_password'.</msg>
-<status status="PASS" starttime="20210321 13:58:40.992" endtime="20210321 13:58:41.438"></status>
+<msg timestamp="20210321 16:55:44.296" level="INFO">Typing password into text field 'id:ap_password'.</msg>
+<status status="PASS" starttime="20210321 16:55:44.295" endtime="20210321 16:55:45.086"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:40.990" endtime="20210321 13:58:41.439"></status>
+<status status="PASS" starttime="20210321 16:55:44.291" endtime="20210321 16:55:45.087"></status>
 </kw>
 <kw name="Click log In btn" library="amazonlogin">
 <kw name="Select Checkbox" library="SeleniumLibrary">
@@ -228,26 +220,26 @@
 <arguments>
 <arg>rememberMe</arg>
 </arguments>
-<msg timestamp="20210321 13:58:41.443" level="INFO">Selecting checkbox 'rememberMe'.</msg>
-<status status="PASS" starttime="20210321 13:58:41.442" endtime="20210321 13:58:41.817"></status>
+<msg timestamp="20210321 16:55:45.090" level="INFO">Selecting checkbox 'rememberMe'.</msg>
+<status status="PASS" starttime="20210321 16:55:45.090" endtime="20210321 16:55:45.459"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>id:signInSubmit</arg>
 </arguments>
-<msg timestamp="20210321 13:58:41.818" level="INFO">Clicking element 'id:signInSubmit'.</msg>
-<status status="PASS" starttime="20210321 13:58:41.817" endtime="20210321 13:58:42.322"></status>
+<msg timestamp="20210321 16:55:45.461" level="INFO">Clicking element 'id:signInSubmit'.</msg>
+<status status="PASS" starttime="20210321 16:55:45.460" endtime="20210321 16:55:46.064"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3s</arg>
 </arguments>
-<msg timestamp="20210321 13:58:45.326" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20210321 13:58:42.323" endtime="20210321 13:58:45.326"></status>
+<msg timestamp="20210321 16:55:49.068" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210321 16:55:46.065" endtime="20210321 16:55:49.069"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:41.440" endtime="20210321 13:58:45.327"></status>
+<status status="PASS" starttime="20210321 16:55:45.088" endtime="20210321 16:55:49.070"></status>
 </kw>
 <kw name="Get Element Count" library="SeleniumLibrary">
 <doc>Returns number of elements matching ``locator``.</doc>
@@ -257,8 +249,8 @@
 <assign>
 <var>${name_in_page}</var>
 </assign>
-<msg timestamp="20210321 13:58:48.328" level="INFO">${name_in_page} = 1</msg>
-<status status="PASS" starttime="20210321 13:58:45.328" endtime="20210321 13:58:48.329"></status>
+<msg timestamp="20210321 16:55:57.458" level="INFO">${name_in_page} = 1</msg>
+<status status="PASS" starttime="20210321 16:55:49.071" endtime="20210321 16:55:57.458"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -274,7 +266,7 @@
 <arguments>
 <arg>Valid Credentials</arg>
 </arguments>
-<status status="PASS" starttime="20210321 13:58:48.333" endtime="20210321 13:58:48.334"></status>
+<status status="PASS" starttime="20210321 16:55:57.464" endtime="20210321 16:55:57.465"></status>
 </kw>
 <kw name="Search Option" library="amazonorder">
 <kw name="Input Text" library="SeleniumLibrary">
@@ -283,18 +275,18 @@
 <arg>id:twotabsearchtextbox</arg>
 <arg>samsung A51</arg>
 </arguments>
-<msg timestamp="20210321 13:58:48.337" level="INFO">Typing text 'samsung A51' into text field 'id:twotabsearchtextbox'.</msg>
-<status status="PASS" starttime="20210321 13:58:48.336" endtime="20210321 13:58:49.606"></status>
+<msg timestamp="20210321 16:55:57.469" level="INFO">Typing text 'samsung A51' into text field 'id:twotabsearchtextbox'.</msg>
+<status status="PASS" starttime="20210321 16:55:57.468" endtime="20210321 16:55:59.775"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>nav-search-submit-button</arg>
 </arguments>
-<msg timestamp="20210321 13:58:49.607" level="INFO">Clicking element 'nav-search-submit-button'.</msg>
-<status status="PASS" starttime="20210321 13:58:49.606" endtime="20210321 13:58:54.630"></status>
+<msg timestamp="20210321 16:55:59.777" level="INFO">Clicking element 'nav-search-submit-button'.</msg>
+<status status="PASS" starttime="20210321 16:55:59.776" endtime="20210321 16:56:10.955"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:48.335" endtime="20210321 13:58:54.630"></status>
+<status status="PASS" starttime="20210321 16:55:57.466" endtime="20210321 16:56:10.956"></status>
 </kw>
 <kw name="Selecting Item" library="amazonorder">
 <kw name="Click Element" library="SeleniumLibrary">
@@ -302,10 +294,10 @@
 <arguments>
 <arg>xpath://span[text()='Samsung Galaxy A51 (Blue, 8GB RAM, 128GB Storage) Without Offer']</arg>
 </arguments>
-<msg timestamp="20210321 13:58:54.632" level="INFO">Clicking element 'xpath://span[text()='Samsung Galaxy A51 (Blue, 8GB RAM, 128GB Storage) Without Offer']'.</msg>
-<status status="PASS" starttime="20210321 13:58:54.632" endtime="20210321 13:58:56.005"></status>
+<msg timestamp="20210321 16:56:10.959" level="INFO">Clicking element 'xpath://span[text()='Samsung Galaxy A51 (Blue, 8GB RAM, 128GB Storage) Without Offer']'.</msg>
+<status status="PASS" starttime="20210321 16:56:10.958" endtime="20210321 16:56:21.980"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:54.631" endtime="20210321 13:58:56.006"></status>
+<status status="PASS" starttime="20210321 16:56:10.956" endtime="20210321 16:56:21.981"></status>
 </kw>
 <kw name="Switching New Tab" library="amazonorder">
 <kw name="Select Window" library="SeleniumLibrary">
@@ -313,25 +305,88 @@
 <arguments>
 <arg>title=Samsung Galaxy A51 (Blue, 8GB RAM, 128GB Storage) Without Offer: Amazon.in: Electronics</arg>
 </arguments>
+<status status="PASS" starttime="20210321 16:56:21.985" endtime="20210321 16:56:36.341"></status>
+</kw>
+<status status="PASS" starttime="20210321 16:56:21.983" endtime="20210321 16:56:36.342"></status>
+</kw>
+<kw name="Add Cart" library="amazonorder">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>id:add-to-cart-button</arg>
+</arguments>
+<msg timestamp="20210321 16:56:36.347" level="INFO">Clicking element 'id:add-to-cart-button'.</msg>
+<status status="PASS" starttime="20210321 16:56:36.346" endtime="20210321 16:56:41.074"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20210321 16:56:43.078" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210321 16:56:41.075" endtime="20210321 16:56:43.079"></status>
+</kw>
+<status status="PASS" starttime="20210321 16:56:36.343" endtime="20210321 16:56:43.080"></status>
+</kw>
+<kw name="close cart" library="amazonorder">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>id:attach-close_sideSheet-link</arg>
+</arguments>
+<msg timestamp="20210321 16:56:43.084" level="INFO">Clicking element 'id:attach-close_sideSheet-link'.</msg>
+<status status="PASS" starttime="20210321 16:56:43.083" endtime="20210321 16:56:46.411"></status>
+</kw>
+<kw name="Close Window" library="SeleniumLibrary">
+<doc>Closes currently opened pop-up window.</doc>
+<status status="PASS" starttime="20210321 16:56:46.412" endtime="20210321 16:56:46.903"></status>
+</kw>
+<status status="PASS" starttime="20210321 16:56:43.080" endtime="20210321 16:56:46.904"></status>
+</kw>
+<kw name="Switch old tab" library="amazonorder">
+<kw name="Select Window" library="SeleniumLibrary">
+<doc>Selects browser window matching ``locator``.</doc>
+<arguments>
+<arg>title=Amazon.in : samsung A51</arg>
+</arguments>
+<status status="PASS" starttime="20210321 16:56:46.908" endtime="20210321 16:56:47.496"></status>
+</kw>
+<status status="PASS" starttime="20210321 16:56:46.905" endtime="20210321 16:56:47.497"></status>
+</kw>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<doc>Simulates hovering mouse over the element ``locator``.</doc>
+<arguments>
+<arg>id:nav-link-accountList-nav-line-1</arg>
+</arguments>
+<msg timestamp="20210321 16:56:47.499" level="INFO">Simulating Mouse Over on element 'id:nav-link-accountList-nav-line-1'.</msg>
+<status status="PASS" starttime="20210321 16:56:47.498" endtime="20210321 16:56:47.930"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://span[text()='Sign Out']</arg>
+</arguments>
+<msg timestamp="20210321 16:56:47.932" level="INFO">Clicking element 'xpath://span[text()='Sign Out']'.</msg>
+<status status="PASS" starttime="20210321 16:56:47.931" endtime="20210321 16:56:50.648"></status>
+</kw>
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes screenshot of the current page and embeds it into log file.</doc>
-<msg timestamp="20210321 13:59:21.198" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="0-selenium-screenshot-1.png"&gt;&lt;img src="0-selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210321 13:59:20.475" endtime="20210321 13:59:21.199"></status>
+<msg timestamp="20210321 16:56:51.386" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="0-selenium-screenshot-1.png"&gt;&lt;img src="0-selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210321 16:56:50.649" endtime="20210321 16:56:51.387"></status>
 </kw>
-<msg timestamp="20210321 13:59:21.258" level="FAIL">Unable to locate window with title 'Samsung Galaxy A51 (Blue, 8GB RAM, 128GB Storage) Without Offer: Amazon.in: Electronics'.</msg>
-<status status="FAIL" starttime="20210321 13:58:56.007" endtime="20210321 13:59:21.258"></status>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20210321 16:56:51.387" endtime="20210321 16:56:57.004"></status>
 </kw>
-<status status="FAIL" starttime="20210321 13:58:56.006" endtime="20210321 13:59:21.259"></status>
+<status status="PASS" starttime="20210321 16:55:57.462" endtime="20210321 16:56:57.005"></status>
 </kw>
-<status status="FAIL" starttime="20210321 13:58:48.331" endtime="20210321 13:59:21.259"></status>
+<status status="PASS" starttime="20210321 16:55:57.459" endtime="20210321 16:56:57.005"></status>
 </kw>
-<status status="FAIL" starttime="20210321 13:58:48.330" endtime="20210321 13:59:21.259"></status>
+<status status="PASS" starttime="20210321 16:55:14.719" endtime="20210321 16:56:57.006"></status>
 </kw>
-<status status="FAIL" starttime="20210321 13:58:19.906" endtime="20210321 13:59:21.260"></status>
-</kw>
-<status status="FAIL" starttime="20210321 13:58:19.895" endtime="20210321 13:59:21.260" critical="yes">Unable to locate window with title 'Samsung Galaxy A51 (Blue, 8GB RAM, 128GB Storage) Without Offer: Amazon.in: Electronics'.</status>
+<status status="PASS" starttime="20210321 16:55:14.715" endtime="20210321 16:56:57.007" critical="yes"></status>
 </test>
-<status status="FAIL" starttime="20210321 13:57:51.655" endtime="20210321 13:59:21.263"></status>
+<status status="PASS" starttime="20210321 16:54:11.733" endtime="20210321 16:56:57.011"></status>
 </suite>
 <suite id="s1-s2" name="Saucerun" source="C:\Users\kavib\Pythonpro\Demo\runners\saucerun.robot">
 <test id="s1-s2-t1" name="SauceDemo">
@@ -353,10 +408,10 @@
 <arg>${link}</arg>
 <arg>${browser}</arg>
 </arguments>
-<msg timestamp="20210321 13:57:53.827" level="INFO">Opening browser 'chrome' to base url 'https://www.saucedemo.com/'.</msg>
-<status status="PASS" starttime="20210321 13:57:53.826" endtime="20210321 13:57:56.809"></status>
+<msg timestamp="20210321 16:54:17.890" level="INFO">Opening browser 'chrome' to base url 'https://www.saucedemo.com/'.</msg>
+<status status="PASS" starttime="20210321 16:54:17.888" endtime="20210321 16:54:24.449"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:57:53.825" endtime="20210321 13:57:56.809"></status>
+<status status="PASS" starttime="20210321 16:54:17.885" endtime="20210321 16:54:24.451"></status>
 </kw>
 <kw name="username" library="loginsl">
 <arguments>
@@ -368,10 +423,10 @@
 <arg>id:user-name</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20210321 13:57:56.811" level="INFO">Typing text 'standard_user' into text field 'id:user-name'.</msg>
-<status status="PASS" starttime="20210321 13:57:56.811" endtime="20210321 13:57:57.071"></status>
+<msg timestamp="20210321 16:54:24.457" level="INFO">Typing text 'standard_user' into text field 'id:user-name'.</msg>
+<status status="PASS" starttime="20210321 16:54:24.455" endtime="20210321 16:54:25.413"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:57:56.810" endtime="20210321 13:57:57.072"></status>
+<status status="PASS" starttime="20210321 16:54:24.452" endtime="20210321 16:54:25.414"></status>
 </kw>
 <kw name="password" library="loginsl">
 <arguments>
@@ -383,10 +438,10 @@
 <arg>id:password</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20210321 13:57:57.074" level="INFO">Typing password into text field 'id:password'.</msg>
-<status status="PASS" starttime="20210321 13:57:57.073" endtime="20210321 13:57:57.395"></status>
+<msg timestamp="20210321 16:54:25.419" level="INFO">Typing password into text field 'id:password'.</msg>
+<status status="PASS" starttime="20210321 16:54:25.418" endtime="20210321 16:54:26.279"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:57:57.072" endtime="20210321 13:57:57.395"></status>
+<status status="PASS" starttime="20210321 16:54:25.415" endtime="20210321 16:54:26.280"></status>
 </kw>
 <kw name="Login button" library="loginsl">
 <kw name="Click Button" library="SeleniumLibrary">
@@ -394,38 +449,38 @@
 <arguments>
 <arg>id:login-button</arg>
 </arguments>
-<msg timestamp="20210321 13:57:57.397" level="INFO">Clicking button 'id:login-button'.</msg>
-<status status="PASS" starttime="20210321 13:57:57.396" endtime="20210321 13:57:57.732"></status>
+<msg timestamp="20210321 16:54:26.285" level="INFO">Clicking button 'id:login-button'.</msg>
+<status status="PASS" starttime="20210321 16:54:26.284" endtime="20210321 16:54:27.318"></status>
 </kw>
 <kw name="Title Should Be" library="SeleniumLibrary">
 <doc>Verifies that current page title equals ``title``.</doc>
 <arguments>
 <arg>Swag Labs</arg>
 </arguments>
-<msg timestamp="20210321 13:57:57.770" level="INFO">Page title is 'Swag Labs'.</msg>
-<status status="PASS" starttime="20210321 13:57:57.732" endtime="20210321 13:57:57.770"></status>
+<msg timestamp="20210321 16:54:27.359" level="INFO">Page title is 'Swag Labs'.</msg>
+<status status="PASS" starttime="20210321 16:54:27.319" endtime="20210321 16:54:27.360"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>get title</arg>
 </arguments>
-<status status="PASS" starttime="20210321 13:57:57.771" endtime="20210321 13:57:57.772"></status>
+<status status="PASS" starttime="20210321 16:54:27.361" endtime="20210321 16:54:27.362"></status>
 </kw>
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes screenshot of the current page and embeds it into log file.</doc>
-<msg timestamp="20210321 13:57:58.921" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="1-selenium-screenshot-1.png"&gt;&lt;img src="1-selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210321 13:57:57.772" endtime="20210321 13:57:58.921"></status>
+<msg timestamp="20210321 16:54:28.379" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="1-selenium-screenshot-1.png"&gt;&lt;img src="1-selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210321 16:54:27.363" endtime="20210321 16:54:28.379"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>5s</arg>
 </arguments>
-<msg timestamp="20210321 13:58:03.923" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20210321 13:57:58.922" endtime="20210321 13:58:03.923"></status>
+<msg timestamp="20210321 16:54:33.382" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210321 16:54:28.380" endtime="20210321 16:54:33.383"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:57:57.395" endtime="20210321 13:58:03.924"></status>
+<status status="PASS" starttime="20210321 16:54:26.281" endtime="20210321 16:54:33.389"></status>
 </kw>
 <kw name="Get Element Count" library="SeleniumLibrary">
 <doc>Returns number of elements matching ``locator``.</doc>
@@ -435,8 +490,8 @@
 <assign>
 <var>${name_in_page}</var>
 </assign>
-<msg timestamp="20210321 13:58:03.964" level="INFO">${name_in_page} = 2</msg>
-<status status="PASS" starttime="20210321 13:58:03.924" endtime="20210321 13:58:03.964"></status>
+<msg timestamp="20210321 16:54:33.653" level="INFO">${name_in_page} = 2</msg>
+<status status="PASS" starttime="20210321 16:54:33.390" endtime="20210321 16:54:33.653"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -454,18 +509,18 @@
 <arg>xpath://*[@id="inventory_filter_container"]/select</arg>
 <arg>3</arg>
 </arguments>
-<msg timestamp="20210321 13:58:03.968" level="INFO">Selecting options from selection list 'xpath://*[@id="inventory_filter_container"]/select' by index 3.</msg>
-<status status="PASS" starttime="20210321 13:58:03.967" endtime="20210321 13:58:04.525"></status>
+<msg timestamp="20210321 16:54:33.663" level="INFO">Selecting options from selection list 'xpath://*[@id="inventory_filter_container"]/select' by index 3.</msg>
+<status status="PASS" starttime="20210321 16:54:33.662" endtime="20210321 16:54:36.572"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20210321 13:58:06.527" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20210321 13:58:04.526" endtime="20210321 13:58:06.528"></status>
+<msg timestamp="20210321 16:54:38.576" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210321 16:54:36.573" endtime="20210321 16:54:38.577"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:03.966" endtime="20210321 13:58:06.529"></status>
+<status status="PASS" starttime="20210321 16:54:33.659" endtime="20210321 16:54:38.578"></status>
 </kw>
 <kw name="Logout" library="loginsl">
 <kw name="Click Element" library="SeleniumLibrary">
@@ -473,46 +528,46 @@
 <arguments>
 <arg>id:react-burger-menu-btn</arg>
 </arguments>
-<msg timestamp="20210321 13:58:06.533" level="INFO">Clicking element 'id:react-burger-menu-btn'.</msg>
-<status status="PASS" starttime="20210321 13:58:06.531" endtime="20210321 13:58:07.046"></status>
+<msg timestamp="20210321 16:54:38.582" level="INFO">Clicking element 'id:react-burger-menu-btn'.</msg>
+<status status="PASS" starttime="20210321 16:54:38.581" endtime="20210321 16:54:39.829"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20210321 13:58:09.048" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20210321 13:58:07.046" endtime="20210321 13:58:09.048"></status>
+<msg timestamp="20210321 16:54:41.834" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210321 16:54:39.830" endtime="20210321 16:54:41.835"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>id:logout_sidebar_link</arg>
 </arguments>
-<msg timestamp="20210321 13:58:09.049" level="INFO">Clicking element 'id:logout_sidebar_link'.</msg>
-<status status="PASS" starttime="20210321 13:58:09.049" endtime="20210321 13:58:09.290"></status>
+<msg timestamp="20210321 16:54:41.836" level="INFO">Clicking element 'id:logout_sidebar_link'.</msg>
+<status status="PASS" starttime="20210321 16:54:41.835" endtime="20210321 16:54:43.439"></status>
 </kw>
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes screenshot of the current page and embeds it into log file.</doc>
-<msg timestamp="20210321 13:58:09.952" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="1-selenium-screenshot-2.png"&gt;&lt;img src="1-selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210321 13:58:09.291" endtime="20210321 13:58:09.952"></status>
+<msg timestamp="20210321 16:54:45.616" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="1-selenium-screenshot-2.png"&gt;&lt;img src="1-selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210321 16:54:43.440" endtime="20210321 16:54:45.617"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:06.529" endtime="20210321 13:58:09.953"></status>
+<status status="PASS" starttime="20210321 16:54:38.579" endtime="20210321 16:54:45.618"></status>
 </kw>
 <kw name="end" library="loginsl">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20210321 13:58:09.954" endtime="20210321 13:58:15.466"></status>
+<status status="PASS" starttime="20210321 16:54:45.621" endtime="20210321 16:54:54.845"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:09.953" endtime="20210321 13:58:15.467"></status>
+<status status="PASS" starttime="20210321 16:54:45.618" endtime="20210321 16:54:54.846"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:03.966" endtime="20210321 13:58:15.467"></status>
+<status status="PASS" starttime="20210321 16:54:33.657" endtime="20210321 16:54:54.847"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:03.965" endtime="20210321 13:58:15.467"></status>
+<status status="PASS" starttime="20210321 16:54:33.654" endtime="20210321 16:54:54.847"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:57:53.824" endtime="20210321 13:58:15.467"></status>
+<status status="PASS" starttime="20210321 16:54:17.882" endtime="20210321 16:54:54.848"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:57:53.823" endtime="20210321 13:58:15.468" critical="yes"></status>
+<status status="PASS" starttime="20210321 16:54:17.878" endtime="20210321 16:54:54.849" critical="yes"></status>
 </test>
 <test id="s1-s2-t2" name="SauceDemo">
 <kw name="Test">
@@ -533,10 +588,10 @@
 <arg>${link}</arg>
 <arg>${browser}</arg>
 </arguments>
-<msg timestamp="20210321 13:58:15.474" level="INFO">Opening browser 'ff' to base url 'https://www.saucedemo.com/'.</msg>
-<status status="PASS" starttime="20210321 13:58:15.473" endtime="20210321 13:58:27.126"></status>
+<msg timestamp="20210321 16:54:54.865" level="INFO">Opening browser 'ff' to base url 'https://www.saucedemo.com/'.</msg>
+<status status="PASS" starttime="20210321 16:54:54.863" endtime="20210321 16:55:13.405"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:15.472" endtime="20210321 13:58:27.127"></status>
+<status status="PASS" starttime="20210321 16:54:54.860" endtime="20210321 16:55:13.406"></status>
 </kw>
 <kw name="username" library="loginsl">
 <arguments>
@@ -548,10 +603,10 @@
 <arg>id:user-name</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20210321 13:58:27.132" level="INFO">Typing text 'kavi123' into text field 'id:user-name'.</msg>
-<status status="PASS" starttime="20210321 13:58:27.130" endtime="20210321 13:58:27.501"></status>
+<msg timestamp="20210321 16:55:13.411" level="INFO">Typing text 'kavi123' into text field 'id:user-name'.</msg>
+<status status="PASS" starttime="20210321 16:55:13.409" endtime="20210321 16:55:13.911"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:27.128" endtime="20210321 13:58:27.502"></status>
+<status status="PASS" starttime="20210321 16:55:13.407" endtime="20210321 16:55:13.912"></status>
 </kw>
 <kw name="password" library="loginsl">
 <arguments>
@@ -563,10 +618,10 @@
 <arg>id:password</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20210321 13:58:27.507" level="INFO">Typing password into text field 'id:password'.</msg>
-<status status="PASS" starttime="20210321 13:58:27.506" endtime="20210321 13:58:27.666"></status>
+<msg timestamp="20210321 16:55:13.917" level="INFO">Typing password into text field 'id:password'.</msg>
+<status status="PASS" starttime="20210321 16:55:13.915" endtime="20210321 16:55:14.132"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:27.503" endtime="20210321 13:58:27.668"></status>
+<status status="PASS" starttime="20210321 16:55:13.913" endtime="20210321 16:55:14.133"></status>
 </kw>
 <kw name="Login button" library="loginsl">
 <kw name="Click Button" library="SeleniumLibrary">
@@ -574,38 +629,38 @@
 <arguments>
 <arg>id:login-button</arg>
 </arguments>
-<msg timestamp="20210321 13:58:27.672" level="INFO">Clicking button 'id:login-button'.</msg>
-<status status="PASS" starttime="20210321 13:58:27.670" endtime="20210321 13:58:28.040"></status>
+<msg timestamp="20210321 16:55:14.137" level="INFO">Clicking button 'id:login-button'.</msg>
+<status status="PASS" starttime="20210321 16:55:14.136" endtime="20210321 16:55:14.528"></status>
 </kw>
 <kw name="Title Should Be" library="SeleniumLibrary">
 <doc>Verifies that current page title equals ``title``.</doc>
 <arguments>
 <arg>Swag Labs</arg>
 </arguments>
-<msg timestamp="20210321 13:58:28.061" level="INFO">Page title is 'Swag Labs'.</msg>
-<status status="PASS" starttime="20210321 13:58:28.040" endtime="20210321 13:58:28.061"></status>
+<msg timestamp="20210321 16:55:14.538" level="INFO">Page title is 'Swag Labs'.</msg>
+<status status="PASS" starttime="20210321 16:55:14.529" endtime="20210321 16:55:14.539"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>get title</arg>
 </arguments>
-<status status="PASS" starttime="20210321 13:58:28.062" endtime="20210321 13:58:28.063"></status>
+<status status="PASS" starttime="20210321 16:55:14.540" endtime="20210321 16:55:14.541"></status>
 </kw>
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes screenshot of the current page and embeds it into log file.</doc>
-<msg timestamp="20210321 13:58:28.431" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="1-selenium-screenshot-3.png"&gt;&lt;img src="1-selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20210321 13:58:28.064" endtime="20210321 13:58:28.431"></status>
+<msg timestamp="20210321 16:55:14.872" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="1-selenium-screenshot-3.png"&gt;&lt;img src="1-selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210321 16:55:14.542" endtime="20210321 16:55:14.873"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>5s</arg>
 </arguments>
-<msg timestamp="20210321 13:58:33.434" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20210321 13:58:28.432" endtime="20210321 13:58:33.435"></status>
+<msg timestamp="20210321 16:55:19.877" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20210321 16:55:14.873" endtime="20210321 16:55:19.878"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:27.668" endtime="20210321 13:58:33.436"></status>
+<status status="PASS" starttime="20210321 16:55:14.133" endtime="20210321 16:55:19.880"></status>
 </kw>
 <kw name="Get Element Count" library="SeleniumLibrary">
 <doc>Returns number of elements matching ``locator``.</doc>
@@ -615,8 +670,8 @@
 <assign>
 <var>${name_in_page}</var>
 </assign>
-<msg timestamp="20210321 13:58:33.502" level="INFO">${name_in_page} = 0</msg>
-<status status="PASS" starttime="20210321 13:58:33.436" endtime="20210321 13:58:33.502"></status>
+<msg timestamp="20210321 16:55:19.902" level="INFO">${name_in_page} = 0</msg>
+<status status="PASS" starttime="20210321 16:55:19.881" endtime="20210321 16:55:19.902"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -632,43 +687,43 @@
 <arguments>
 <arg>Invalid</arg>
 </arguments>
-<status status="PASS" starttime="20210321 13:58:33.507" endtime="20210321 13:58:33.508"></status>
+<status status="PASS" starttime="20210321 16:55:19.908" endtime="20210321 16:55:19.909"></status>
 </kw>
 <kw name="end" library="loginsl">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20210321 13:58:33.511" endtime="20210321 13:58:37.810"></status>
+<status status="PASS" starttime="20210321 16:55:19.912" endtime="20210321 16:55:30.759"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:33.509" endtime="20210321 13:58:37.811"></status>
+<status status="PASS" starttime="20210321 16:55:19.910" endtime="20210321 16:55:30.760"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:33.505" endtime="20210321 13:58:37.812"></status>
+<status status="PASS" starttime="20210321 16:55:19.905" endtime="20210321 16:55:30.761"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:33.503" endtime="20210321 13:58:37.812"></status>
+<status status="PASS" starttime="20210321 16:55:19.903" endtime="20210321 16:55:30.761"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:15.471" endtime="20210321 13:58:37.812"></status>
+<status status="PASS" starttime="20210321 16:54:54.857" endtime="20210321 16:55:30.762"></status>
 </kw>
-<status status="PASS" starttime="20210321 13:58:15.470" endtime="20210321 13:58:37.813" critical="yes"></status>
+<status status="PASS" starttime="20210321 16:54:54.853" endtime="20210321 16:55:30.763" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20210321 13:57:51.653" endtime="20210321 13:58:37.815"></status>
+<status status="PASS" starttime="20210321 16:54:11.747" endtime="20210321 16:55:30.769"></status>
 </suite>
 <doc>[https://pabot.org/?ref=log|Pabot] result from 2 executions.</doc>
-<status status="FAIL" starttime="20210321 13:57:51.584" endtime="20210321 13:59:21.269"></status>
+<status status="PASS" starttime="20210321 16:54:11.628" endtime="20210321 16:56:57.026"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="3" fail="1">Critical Tests</stat>
-<stat pass="3" fail="1">All Tests</stat>
+<stat pass="4" fail="0">Critical Tests</stat>
+<stat pass="4" fail="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="3" fail="1" id="s1" name="Suites">Suites</stat>
-<stat pass="1" fail="1" id="s1-s1" name="Amrun">Suites.Amrun</stat>
+<stat pass="4" fail="0" id="s1" name="Suites">Suites</stat>
+<stat pass="2" fail="0" id="s1-s1" name="Amrun">Suites.Amrun</stat>
 <stat pass="2" fail="0" id="s1-s2" name="Saucerun">Suites.Saucerun</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20210321 13:58:19.894" level="WARN">Multiple test cases with name 'WithDataDriven1' executed in test suite 'Suites.Amrun'.</msg>
-<msg timestamp="20210321 13:58:15.470" level="WARN">Multiple test cases with name 'SauceDemo' executed in test suite 'Suites.Saucerun'.</msg>
+<msg timestamp="20210321 16:55:14.715" level="WARN">Multiple test cases with name 'WithDataDriven1' executed in test suite 'Suites.Amrun'.</msg>
+<msg timestamp="20210321 16:54:54.852" level="WARN">Multiple test cases with name 'SauceDemo' executed in test suite 'Suites.Saucerun'.</msg>
 </errors>
 </robot>
