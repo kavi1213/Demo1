@@ -3,6 +3,7 @@ Library  SeleniumLibrary
 Resource  ../test/amazonlogin.robot
 Resource  ../test/amazonorder.robot
 Library   DataDriver  ../data/pyrobot.xlsx
+Variables  ./test/amazon.py
 
 
 
@@ -20,7 +21,7 @@ login
     Input Uname  ${username}
     Input Pword  ${password}
     Click log In btn
-    ${name_in_page}=  get element count  //*[@id="nav-cart-count"]
+    ${name_in_page}=  get element count   ${condition}
     run keyword if  ${name_in_page} > 0   Keyword1     ELSE   Keyword2
 
 Keyword1
@@ -31,8 +32,8 @@ Keyword1
     Add Cart
     close cart
     Switch old tab
-    mouse over  id:nav-link-accountList-nav-line-1
-    click element  xpath://span[text()='Sign Out']
+    mouse over      ${mouseover}
+    click element  ${signoutoption}
     capture page screenshot
     close browser
 

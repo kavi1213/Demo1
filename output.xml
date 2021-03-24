@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.9.2 on win32)" generated="20210323 18:25:51.615" rpa="false">
+<robot generator="Robot 3.2.2 (Python 3.9.2 on win32)" generated="20210324 17:46:02.753" rpa="false">
 <suite id="s1" name="DBtesting" source="C:\Users\kavib\Pythonpro\Demo\test\DBtesting.robot">
 <kw name="Connect To Database" library="DatabaseLibrary" type="setup">
 <doc>Loads the DB API 2.0 module given `dbapiModuleName` then uses it to
@@ -12,8 +12,8 @@ connect to the database using `dbName`, `dbUsername`, and `dbPassword`.</doc>
 <arg>${DBHost}</arg>
 <arg>${DBPort}</arg>
 </arguments>
-<msg timestamp="20210323 18:25:51.837" level="INFO">Connecting using : pymysql.connect(db=demo, user=root, passwd=Bharathi1998, host=127.0.0.1, port=3306, charset=None) </msg>
-<status status="PASS" starttime="20210323 18:25:51.769" endtime="20210323 18:25:51.852"></status>
+<msg timestamp="20210324 17:46:02.940" level="INFO">Connecting using : pymysql.connect(db=demo, user=root, passwd=Bharathi1998, host=127.0.0.1, port=3306, charset=None) </msg>
+<status status="PASS" starttime="20210324 17:46:02.878" endtime="20210324 17:46:02.956"></status>
 </kw>
 <test id="s1-t1" name="Create Test1 Table">
 <kw name="Execute Sql Script" library="DatabaseLibrary">
@@ -26,16 +26,16 @@ state before running your tests, or clearing out your test data after running ea
 <assign>
 <var>${output}</var>
 </assign>
-<msg timestamp="20210323 18:25:51.855" level="INFO">Executing : Execute SQL Script  |  ./data/database.sql </msg>
-<msg timestamp="20210323 18:25:51.863" level="INFO">${output} = None</msg>
-<status status="PASS" starttime="20210323 18:25:51.855" endtime="20210323 18:25:51.863"></status>
+<msg timestamp="20210324 17:46:02.972" level="INFO">Executing : Execute SQL Script  |  ./data/database.sql </msg>
+<msg timestamp="20210324 17:46:02.987" level="INFO">${output} = None</msg>
+<status status="PASS" starttime="20210324 17:46:02.956" endtime="20210324 17:46:02.987"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${output}</arg>
 </arguments>
-<status status="PASS" starttime="20210323 18:25:51.863" endtime="20210323 18:25:51.864"></status>
+<status status="PASS" starttime="20210324 17:46:02.987" endtime="20210324 17:46:02.987"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -43,19 +43,19 @@ state before running your tests, or clearing out your test data after running ea
 <arg>${output}</arg>
 <arg>None</arg>
 </arguments>
-<msg timestamp="20210323 18:25:51.865" level="INFO">Argument types are:
+<msg timestamp="20210324 17:46:02.987" level="INFO">Argument types are:
 &lt;class 'NoneType'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20210323 18:25:51.865" endtime="20210323 18:25:51.866"></status>
+<status status="PASS" starttime="20210324 17:46:02.987" endtime="20210324 17:46:02.987"></status>
 </kw>
-<status status="PASS" starttime="20210323 18:25:51.853" endtime="20210323 18:25:51.866" critical="yes"></status>
+<status status="PASS" starttime="20210324 17:46:02.956" endtime="20210324 17:46:02.987" critical="yes"></status>
 </test>
 <kw name="Disconnect From Database" library="DatabaseLibrary" type="teardown">
 <doc>Disconnects from the database.</doc>
-<msg timestamp="20210323 18:25:51.869" level="INFO">Executing : Disconnect From Database</msg>
-<status status="PASS" starttime="20210323 18:25:51.868" endtime="20210323 18:25:51.869"></status>
+<msg timestamp="20210324 17:46:03.003" level="INFO">Executing : Disconnect From Database</msg>
+<status status="PASS" starttime="20210324 17:46:03.003" endtime="20210324 17:46:03.003"></status>
 </kw>
-<status status="PASS" starttime="20210323 18:25:51.621" endtime="20210323 18:25:51.869"></status>
+<status status="PASS" starttime="20210324 17:46:02.753" endtime="20210324 17:46:03.003"></status>
 </suite>
 <statistics>
 <total>

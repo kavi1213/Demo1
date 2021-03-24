@@ -1,5 +1,6 @@
 *** Settings ***
 Library  SeleniumLibrary
+Variables  ./test/amazon.py
 
 *** Variables ***
 ${browser}
@@ -12,19 +13,19 @@ Browser operation
    # maximize browser window
 
 select Option
-    click link  xpath://*[@id="nav-link-accountList"]
-
+    click link  ${clicksigninoption}
 Input Uname
     [Arguments]  ${username}
-    input text  id:ap_email    ${username}
+    input text  ${enterusername}    ${username}
+    click element  ${continuebtn1}
 
-    click element  id:continue
 Input Pword
     [Arguments]  ${password}
-    input password  id:ap_password      ${password}
+    input password   ${enterpassword}    ${password}
+
 Click log In btn
     select checkbox  rememberMe
-    click element  id:signInSubmit
+    click element  ${subbtn1}
     sleep  3s
 
 
